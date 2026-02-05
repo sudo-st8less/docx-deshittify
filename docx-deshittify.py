@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""
-
-docx-deshittify:
-Removes phantom blank pages, table format metadata, paragraph and space formatting bugs from .docx files.
-
-x: @st8less
-
-"""
+##############################
+##############################
+#### docx-deshittify:
+#### Removes phantom blank pages, table format metadata, paragraph and space formatting bugs from .docx files.
+#### x: @st8less
+##############################
+##############################
 
 from docx import Document
 from docx.oxml.ns import qn
